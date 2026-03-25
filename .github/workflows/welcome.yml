@@ -1,6 +1,10 @@
-name: Post welcome comment Workflow
+name: Post welcome comment GHA Workflow
 on:
   pull_request:
     types: [opened]
 permissions:
   pull-requests: write
+jobs:
+  welcome:
+    name: Post welcome comment Job
+    runs-on: ubuntu-latest
