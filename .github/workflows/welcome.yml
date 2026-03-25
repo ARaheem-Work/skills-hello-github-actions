@@ -1,0 +1,6 @@
+name: Post welcome comment Workflow
+on:
+  pull_request:
+    types: [opened]
+permissions:
+  pull-requests: write
